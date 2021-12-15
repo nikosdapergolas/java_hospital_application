@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title> Doctor Log in page </title>
+
+<meta charset="utf-8">
+
+<!--link rel="stylesheet" type="text/css" href="homepage.css"-->
+
+
+<style>
+
+
+    body {
+      background-image: url("doctor.jpeg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+          }
+
+    .login-form{
+      width: 350px;
+      margin: 0 auto;
+      border: 1px solid #ddd;
+      padding: 2rem;
+      background: #ffffff;
+    }
+
+    .form-input{
+      background: #fafafa;
+      border: 1px solid #eeeeee;
+      padding: 12px;
+      width: 100%;
+    }
+
+    .form-button{
+      background: #69d2e7;
+      border: 1px solid #ddd;
+      color: #ffffff;
+      padding: 10px;
+      width: 100%;
+
+    }
+    .form-button:hover{
+      background: black;
+    }
+
+</style>
+
+
+
+ <br><br><br><br><br>
+
+
+</head>
+
+<body>
+	
+	<center> <h1>Hello doctor!</h1> </center>
+	
+	<div>
+	   <form class="login-form" action="DoctorServlet" method="POST">
+	
+	
+	    <div style="text-align: center;">
+	        <h2>Login</h2>
+	        <p>Do you want access to your account? Login!</p>
+	    </div>
+	
+	
+	    <div>
+	        <input type="text" class="form-input" name="firstName" placeholder="Username">
+	    </div>
+	
+	
+	
+	     <br>
+	    <!--Password input-->
+	    <div>
+	        <input type="password" class="form-input" name="lastName" placeholder="Password">
+	    </div>
+	
+	
+	
+	     <br>
+	    <!--Login button-->
+	    <div>
+	        <button class="form-button" type="submit">Login</button>
+	    </div>
+	
+	     <br>
+	
+	
+	
+	    <div style=text-align:center;>
+	    Don't have an account? <a href="form2.html">Sign Up</a>
+	    </div>
+	
+	</form>
+	</div>
+	<center>
+		<h4>Are you a <b>Patient?</b> Click <a href="index.html">here</a> to log in as a Patient</h4>
+		<h4>Are you an Admin? Click <a href="adminLogin.html">here</a> to log in as an Admin</h4>
+	</center>
+
+
+
+
+
+</body>
+</html>

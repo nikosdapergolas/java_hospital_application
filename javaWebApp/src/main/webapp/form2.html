@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+fieldset{ background-color:rgb(108,180,252);
+  font-size:16px;
+  width:30%;
+  text-align: left;
+        }
+
+
+#fieldset2
+{background-color:rgb(235,243,245);
+
+}
+</style>
+
+<head>
+  <meta charset="utf-8">
+  <title>
+     Δημιουργία φόρμας εγγραφής
+  </title>
+ <!--<link rel="stylesheet" type="text/css" href="styleform2.css"-->
+</head>
+
+   <body>
+
+   <center>
+
+    <fieldset style="text-align:left;"> Sing Up As a Patient</fieldset>
+
+
+
+  <form  id="myform" method= "post" action= "" >
+
+
+
+
+
+    <fieldset id="fieldset2">
+
+            First Name <input type="text" name="firstname" placeholder="Enter your First Name" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[α-ω])(?=.*[Α-Ω])" title="Letters only!(no numbers or special characters)">
+            <br><br>
+
+            Last Name <input type="text" name="lastname" placeholder="Enter Your Last Name" pattern="(?=.*[A-Z])(?=.*[a-z])" title="Letters only!(no numbers or special characters)">
+
+            <br><br>
+
+            Username <input type="text" name="username" placeholder="Enter a username">
+            <br><br>
+
+            Password <input type="password"  id="password"  name="password" required>
+            <br><br>
+
+            <!--Confirm Password <input  id="password2" type="password" name="password2" required>
+
+            <br><br-->
+
+            AMKA <input type="text" name="amka" placeholder="Enter your AMKA" pattern="[0-9]{11}" title="Please enter exactly 11 digits" required>
+            <br><br>
+
+            <!-- Patient_id <input type="text" name="patientID" placeholder="Enter your id"  required>
+            <br><br>
+
+            <input required type="checkbox" name="box"> I accept the Term of Use & Privacy Policy
+            <br><br>-->
+
+
+          </fieldset>
+
+
+
+          <fieldset style="text-align:right;">
+            <button id="btn" style="border: none;border-radius: 60%;background-color:#99ffcc;"
+             type="submit" name="submit"> Sing Up
+            </button>
+
+
+            <button style="border: none;border-radius: 60%;background-color:#ff5023;cursor: pointer;"
+             type="cancel" name="cancel"> Cancel
+             </button>
+
+          </fieldset>
+
+        </center>
+
+
+
+         </form>
