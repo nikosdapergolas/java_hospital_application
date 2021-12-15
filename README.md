@@ -15,4 +15,13 @@ a) The patients:
   * Cancel a future appointment, if it is scheduled for at least 3 days after the current date.
 
 b) The doctors:
-  * 
+  * Availability entry (dates / times to be accepted).
+  * View an appointment schedule of the specific doctor (per day and per week).
+  * Cancel a future appointment, if it is scheduled for at least 3 days after the current date.
+
+c) The admins:
+  * Registration of Doctors in the system.
+
+
+
+
