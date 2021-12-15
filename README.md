@@ -23,5 +23,6 @@ c) The admins:
   * Registration of Doctors in the system.
 
 
+--CONTRIBUTORS--
 
-
+Nikolaos Dapergolas, Alexandros Manakos, Evagelia Mpouloudenou
